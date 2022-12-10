@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block body %}
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
+<section>
+    <form method="post" action="{{ url_for('login') }}" class="login_form">
+        {% if mesage is defined and mesage %}
+			<div class="alert alert-warning">{{ mesage }}</div>
+		{% endif %}
+        <div class="imgcontainer">
+            <img src="{{url_for('static', filename='image/logo.png')}}" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label for="name"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <a href="/"><button type="submit" class="logbtn">Log in</button></a>
+        </div>
+        <div class="container">
+            <p >Dont't have an account?  <a class="bottom" href="{{url_for('register')}}"> Register here</a></p>
+            <button type="submit" class="cancelbtn">Cancel</button>
+            <!-- <span class="psw">Forgot <a href="#">password?</a></span> -->
+        </div>
+    </form>
+</section>
+{% endblock %}

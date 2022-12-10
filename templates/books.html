@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block body %}
+
+{% for book in books%}
+<div class="product">
+    <div class="books_info">
+        <div class="id">
+            <h1>{{book['id']}}</h1>
+        </div>
+        <div class="books_image">
+            <img src="{{book['image']}}" alt="">
+        </div>
+        <div class="product-summary">
+            <div class="title">
+                <h1>{{book['book_title']}}</h1>
+            </div>
+            <div class="author-publisher">
+                <p>{{book['book_author']}}</p>
+                <p>Publisher:{{book['publisher']}}</p>
+            </div>
+            <div class="attributes">
+                <div class="attributes">Release : {{book['release']}}</div>
+                <div class="attributes">Language : {{book['language']}}</div>
+            </div>
+            <div class="price-attrib">
+                <div class="price">{{book['price']}}</div>
+                <div class="right_hub">
+                </div>
+            </div>
+            <div class="action">
+                <div class="action-btn">
+                    <input type="button" class="btn-green" value="Buy Now">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+{% endfor %} 
+{% endblock %}
+
