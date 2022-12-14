@@ -1,61 +1,60 @@
-{
-    "top_books": [
+
+[
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/878/9788177091878.jpg",
             "book_title": "Concepts of Phyics: v. 1",
             "book_author": "H.C. Verma",
-            "price": "₹478"
+            "price": "478"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/071/9789351772071.jpg",
             "book_title": "Attitude Is Everything",
             "book_author": "Jeff Keller",
-            "price": "₹146"
+            "price": "146"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/998/9789387971998.jpg",
             "book_title": "Very First Sight Words Sentences Level 1",
             "book_author": "Dreamland Publications",
-            "price": "₹120"
+            "price": "120"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/662/9788172345662.jpg",
             "book_title": "The Power Of Your Subconscious Mind",
             "book_author": "Dr Joseph Murphy",
-            "price": "₹119"
+            "price": "119"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/060/9781730175060.jpg",
             "book_title": "Colour With Crayons Part - 1",
-            "price": "₹48"
+            "price": "48"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/547/9789384761547.jpg",
             "book_title": "General Knowledge",
             "book_author": "Lucent Publication",
-            "price": "₹309"
+            "price": "309"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/055/9780143440055.jpg",
             "book_title": "Three Thousand Stitches: Ordinary People, Extraordinary Lives",
             "book_author": "Sudha Murty",
-            "price": "₹150"
+            "price": "150"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/407/9788171673407.jpg",
             "book_title": "The Blue Umbrella",
             "book_author": "Ruskin Bond",
-            "price": "₹57"
+            "price": "57"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/504/9788172344504.jpg",
             "book_title": "Pride & Prejudice",
-            "price": "₹117"
+            "price": "117"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/226/9780143062226.jpg",
             "book_title": "Wise and Otherwise: A Salute to Life",
-            "price": "₹150"
+            "price": "150"
         }
-    ]
-}
+]

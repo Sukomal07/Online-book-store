@@ -5,7 +5,7 @@ import MySQLdb.cursors
 import re
 import json
 
-from books import Book
+
 
 app = Flask(__name__)
 app.secret_key = 'xyzsdfg'
@@ -19,13 +19,22 @@ mysql = MySQL(app)
 
 @app.route('/')
 def home():
-    return render_template("index.html")
+    with open('static/json/top_books.json') as json_file:
+        data1 = json.load(json_file)
+    with open('static/json/new_books.json') as json_file:
+        data2 = json.load(json_file)
+    return render_template('index.html', data1=data1, data2=data2)
 
-@app.route('/books' , methods=['GET', 'POST'])
+
+@app.route('/books')
 def books():
-    books = Book.get_all_books()
-    return render_template('books.html' , books=books)
+    with open('static/json/books.json') as f:
+        data = json.load(f)
+    return render_template('books.html', books=data)
 
+@app.route('/cart')
+def cart():
+    return render_template('cart.html')
 
 @app.route('/login', methods =['GET', 'POST'])
 def login():

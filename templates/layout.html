@@ -24,16 +24,20 @@
         <div class="header-1">
     
             <a href="#" class="logo"> <i class="fas fa-book"></i> YourBook </a>
-    
-            <form action="" class="search-form">
+            <form id="search-form" class="search-form">
+                <input type="search" placeholder="search here..." id="search-box">
+                <button type="submit" class="fas fa-search"></button>
+                <label for="search-box" ></label>
+            </form>
+            <!-- <form action="" class="search-form">
                 <input type="search" name="" placeholder="search here..." id="search-box">
                 <label for="search-box" class="fas fa-search"></label>
-            </form>
+            </form> -->
     
             <div class="icons">
                 <div id="search-btn" class="fas fa-search"></div>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="add_to_fav" class="fas fa-heart"></div>
+                <div id="add_to_cart" class="fas fa-shopping-cart"></div>
                 <div id="login-btn" class="fas fa-user"></div>
             </div>
     
@@ -119,7 +123,7 @@
                 <h3>contact info</h3>
                 <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
                 <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-                <a href="#"> <i class="fas fa-envelope"></i> duttasukomal123@gmail.com </a>
+                <a href="mailto:duttasukomal123@gmail.com"> <i class="fas fa-envelope"></i> duttasukomal123@gmail.com </a>
                 <img src="{{url_for('static', filename='image/worldmap.png') }}" class="map" alt="">
             </div>
             

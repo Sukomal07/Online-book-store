@@ -16,7 +16,7 @@ document.querySelector('#close-login-btn').onclick = () =>{
 
 window.onscroll = () =>{
 
-  searchForm.classList.remove('active');
+  // searchForm.classList.remove('active');
 
   if(window.scrollY > 80){
     document.querySelector('.header .header-2').classList.add('active');
@@ -50,7 +50,7 @@ var swiper = new Swiper(".books-slider", {
   loop:true,
   centeredSlides: true,
   autoplay: {
-    delay: 9500,
+    delay: 6500,
     disableOnInteraction: false,
   },
   breakpoints: {
@@ -71,7 +71,7 @@ var swiper = new Swiper(".featured-slider", {
   loop:true,
   centeredSlides: true,
   autoplay: {
-    delay: 9500,
+    delay: 5000,
     disableOnInteraction: false,
   },
   navigation: {
@@ -99,7 +99,7 @@ var swiper = new Swiper(".arrivals-slider", {
   loop:true,
   centeredSlides: true,
   autoplay: {
-    delay: 9500,
+    delay: 5000,
     disableOnInteraction: false,
   },
   breakpoints: {
@@ -143,7 +143,7 @@ var swiper = new Swiper(".blogs-slider", {
   loop:true,
   centeredSlides: true,
   autoplay: {
-    delay: 9500,
+    delay: 7500,
     disableOnInteraction: false,
   },
   breakpoints: {
@@ -159,49 +159,88 @@ var swiper = new Swiper(".blogs-slider", {
   },
 });
 
-// Add an item to the cart
-function addToCart(item) {
-  // Check if the item is already in the cart
-  var cart = JSON.parse(localStorage.getItem('cart') || '[]');
-  var index = cart.findIndex(function(i) { return i.name === item.name; });
-  if (index === -1) {
-    // Add the item to the cart if it's not already in the cart
-    cart.push(item);
-  } else {
-    // Update the quantity of the item if it's already in the cart
-    cart[index].quantity += item.quantity;
-  }
+const form = document.getElementById('search-form');
+const input = document.getElementById('search-box');
 
-  // Save the updated cart to local storage
-  localStorage.setItem('cart', JSON.stringify(cart));
+// get a reference to the element that will display the search results
+const results = document.getElementById('results');
+
+// handle the form submission
+form.addEventListener('submit', event => {
+    // prevent the form from submitting
+    event.preventDefault();
+
+    // get the search query from the input field
+    const query = input.value;
+
+    // search the JSON file for the query and display the results
+    searchJSON(query, results);
+});
+
+function searchJSON(query, results) {
+  // load the JSON file
+  fetch('static/json/books.json')
+      .then(response => response.json())
+      .then(data => {
+          // search the data for the query
+          const filteredData = data.filter(book => {
+              return book.book_title.toLowerCase().includes(query.toLowerCase());
+          });
+
+          // check if there are any results
+          if (filteredData.length > 0) {
+              // transform the search results into HTML elements
+              const html = filteredData.map(book => {
+                  return `
+                  <div class="result_product" >
+                    <div class="books_info">
+                        <div id="results"></div>
+                        <div class="id">
+                            <h1>${book.id}</h1>
+                        </div>
+                        <div class="books_image">
+                            <img src="${ book.image }" alt="${ book.book_title }">
+                        </div>
+                        <div class="product-summary">
+                            <div class="title">
+                                <h1>${book.book_title}</h1>
+                            </div>
+                            <div class="author-publisher">
+                                <p>${book.book_author}</p>
+                                <p>Publisher:${book.publisher}</p>
+                            </div>
+                            <div class="attributes">
+                                <div class="attributes">Release : ${book.release}</div>
+                                <div class="attributes">Language : ${book.language}</div>
+                            </div>
+                            <div class="price-attrib">
+                                <div class="price"> <strong>&#8377;</strong> ${book.price}</div>
+                                <div class="right_hub">
+                                </div>
+                            </div>
+                            <div class="action">
+                                <div class="action-btn">
+                                    <input type="button" id="buy-now" value="Buy Now">
+                                    <div id="add_to_cart" class="fas fa-shopping-cart"></div>
+                                    <div id="add_to_fav" class="fas fa-heart"></div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+
+                  </div>
+                `;
+              });
+
+              // insert the HTML elements into the page
+              results.innerHTML = html.join('');
+          } else {
+              // display a message if no results are found
+              results.innerHTML = '<p>Book not available.</p>';
+          }
+      });
 }
 
-// Remove an item from the cart
-function removeFromCart(item) {
-  // Get the current cart
-  var cart = JSON.parse(localStorage.getItem('cart') || '[]');
 
-  // Find the index of the item in the cart
-  var index = cart.findIndex(function(i) { return i.name === item.name; });
-  if (index !== -1) {
-    // Remove the item from the cart
-    cart.splice(index, 1);
-  }
 
-  // Save the updated cart to local storage
-  localStorage.setItem('cart', JSON.stringify(cart));
-}
-
-// Calculate the total cost of the items in the cart
-function getCartTotal() {
-  // Get the current cart
-  var cart = JSON.parse(localStorage.getItem('cart') || '[]');
-
-  // Calculate the total cost of the items in the cart
-  var total = 0;
-  cart.forEach(function(item) {
-    total += item.price * item.quantity;
-  });
-
-  return total;
-}

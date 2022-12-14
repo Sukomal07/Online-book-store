@@ -150,6 +150,17 @@ section{
 #search-btn{
     display: none;
 }
+button[type="submit"] {
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+}
+button[type="submit"]:hover{
+    color: red;
+}
+
 
 .header .header-2{
     background:black;
@@ -618,10 +629,26 @@ input[type=text]:focus, input[type=password]:focus {
     background-color: white;
     
 }
+.result_product{
+    margin: 0;
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+}
 .product .books_info {
     border-top: solid 2px #ccc; 
     padding: 0px 0 20px 30px;
-    float: left;
+    /* float: left; */
+    width: 100%;
+    overflow: hidden;
+    transition: all 500ms ease-in-out;
+    box-shadow: 0px 10px 5px 0px;
+    
+}
+.result_product .books_info {
+    border-top: solid 2px #ccc; 
+    padding: 0px 0 20px 30px;
+    /* float: left; */
     width: 100%;
     overflow: hidden;
     transition: all 500ms ease-in-out;
@@ -635,7 +662,21 @@ input[type=text]:focus, input[type=password]:focus {
     margin-top: 11px;
     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 3);
 }
+.result_product .books_info:hover {
+    background: #fff;
+    cursor: pointer;
+    margin-top: 11px;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 3);
+}
 .product .id{
+    width: 40px;
+    text-align: left;
+    margin: 6px 5px 0 0;
+    float: left;
+    font-size: 12px;
+    display: block;
+}
+.result_product .id{
     width: 40px;
     text-align: left;
     margin: 6px 5px 0 0;
@@ -651,7 +692,22 @@ input[type=text]:focus, input[type=password]:focus {
     margin: 18px 0 0 0px;
     position: relative;
 }
+.result_product .books_image{
+    width: 124px;
+    float: left;
+    text-align: left;
+    padding: 0;
+    margin: 18px 0 0 0px;
+    position: relative;
+}
 .product .product-summary {
+    width: 75%;
+    float: left;
+    padding: 0;
+    margin: 10px 5px 0 25px;
+    /* color: white; */
+}
+.result_product .product-summary {
     width: 75%;
     float: left;
     padding: 0;
@@ -666,7 +722,30 @@ input[type=text]:focus, input[type=password]:focus {
     /* font-size: 18px;
     line-height: 22px; */
 }
+.result_product .product-summary .title {
+    margin: 0 0 10px 0;
+    text-align: left;
+    /* width: 450%; */
+    color: #16adad;
+    /* font-size: 18px;
+    line-height: 22px; */
+}
+.result_product .product-summary .title h1{
+    font-size: 19px;
+    margin-top: 10px;
+}
+
 .product .product-summary .author-publisher {
+    font-size: 11px;
+    text-align: left;
+    color: #555;
+    /* width: 225%; */
+    /* float: left; */
+    line-height: 13px;
+    margin: 0 0 5px 0;
+    font-weight: 700;
+}
+.result_product .product-summary .author-publisher {
     font-size: 11px;
     text-align: left;
     color: #555;
@@ -681,7 +760,17 @@ input[type=text]:focus, input[type=password]:focus {
     line-height: 21px !important;
     font-family: Lato,sans-serif;
 }
+.result_product .product-summary .author-publisher {
+    font-size: 14px !important;
+    line-height: 21px !important;
+    font-family: Lato,sans-serif;
+}
 .product .product-summary .price-attrib {
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+.result_product .product-summary .price-attrib {
     width: 100%;
     float: left;
     margin: 10px 0;
@@ -692,7 +781,18 @@ input[type=text]:focus, input[type=password]:focus {
     font-size: 25px;
     font-weight: 600;
 }
+.result_product .product-summary .price {
+    float: left;
+    color: #ca0d0d;
+    font-size: 25px;
+    font-weight: 600;
+}
 .product .product-summary .attributes {
+    font-size: 16px !important;
+    color: #555;
+    font-weight: 700;
+}
+.result_product .product-summary .attributes {
     font-size: 16px !important;
     color: #555;
     font-weight: 700;
@@ -703,22 +803,32 @@ input[type=text]:focus, input[type=password]:focus {
     background-position: left bottom;
     min-height: 118px;
 }
+.result_product .action {
+    /* width: 264px; */
+    text-align: left;
+    background-position: left bottom;
+    min-height: 118px;
+}
 .action-btn {
     float: left;
     width: 100%;
 }
-.action-btn a{
+.action-btn #add_to_cart{
     color: var(--black);
     font-size: 2.2rem;
     padding: 1.3rem 1.5rem;
 }
-.action-btn a:hover{
+#add_to_fav{
+    color: var(--black);
+    font-size: 2.2rem;
+}
+.action-btn #add_to_cart:hover{
     color: var(--green);
 }
-.product .action-btn .btn-red {
-    margin:0 7px;
+#add_to_fav:hover{
+    color: var(--green);
 }
-.btn-green {
+#buy-now {
     padding: 10px 15px;
     background: #1fb628;
     border-radius: 4px;
@@ -728,34 +838,9 @@ input[type=text]:focus, input[type=password]:focus {
     cursor: pointer;
     border: none;
 }
-.btn-red {
-    padding: 10px 15px;
-    background: #c30b0b;
-    border-radius: 4px;
-    color: #fff!important;
-    font-weight: 700;
-    font-size: 13px;
-    cursor: pointer;
-    border: none;
-}
-.btn-black {
-    padding: 10px 15px;
-    background: #494949;
-    border-radius: 4px;
-    color: #fff!important;
-    font-weight: 700;
-    font-size: 13px;
-    cursor: pointer;
-    border: none;
-}
-.btn-green:hover{
+
+#buy-now:hover{
     background:var(--dark-color) ;
-}
-.btn-red:hover{
-    background: var(--dark-color);
-}
-.btn-black:hover{
-    background: var(--dark-color);
 }
 
 .deal{

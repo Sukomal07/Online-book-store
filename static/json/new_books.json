@@ -1,244 +1,242 @@
-{
-    "new_books": [
+[
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/303/9780008473303.jpg",
             "book_title": "Skin Revolution",
             "author": "Rattan",
-            "price": "₹1,968"
+            "price": "1,968"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/269/9781338802269.jpg",
-            "book_title": "The Super Cup Face-Off (Geronimo Stilton #81)",
+            "book_title": "The Super Cup Face-Off",
             "author": "Geronimo Stilton",
-            "price": "₹531"
+            "price": "531"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/578/9781506264578.jpg",
-            "book_title": "SAT Study Guide Premium, 2023: 8 Practice Tests + Comprehensive Review + Online Practice",
+            "book_title": "SAT Study Guide Premium",
             "author": "Ira K Wolf",
-            "price": "₹1,759"
+            "price": "1,759"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/231/9780593133231.jpg",
             "book_title": "An Immense World",
             "author": "Ed Yong",
-            "price": "₹2,290"
+            "price": "2,290"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/016/9781647823016.jpg",
             "book_title": "The Upside of Uncertainty",
             "author": "Nathan Furr",
-            "price": "₹850"
+            "price": "850"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/006/9781786578006.jpg",
             "book_title": "Lonely Planet Turkey 16",
             "author": "Mark Elliott",
-            "price": "₹1,305"
+            "price": "1,305"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/854/9781472146854.jpg",
-            "book_title": "The Mindfulness Puzzle Book International Edition",
+            "book_title": "The Mindfulness Puzzle ",
             "author": "Gareth Moore",
-            "price": "₹588"
+            "price": "588"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/779/9781529369779.jpg",
             "book_title": "Inside Out",
             "author": "Charlie Unwin",
-            "price": "₹1,133"
+            "price": "1,133"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/517/9780593299517.jpg",
             "book_title": "Good Arguments",
             "author": "Bo Seo",
-            "price": "₹1,515"
+            "price": "1,515"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/419/9781684058419.jpg",
             "book_title": "Teenage Mutant Ninja Turtles: The Last Ronin",
             "author": "Robert Rodriguez",
-            "price": "₹1,673"
+            "price": "1,673"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/091/9780358668091.jpg",
             "book_title": "These Hollow Vows",
             "author": "Lexi Ryan",
-            "price": "₹659"
+            "price": "659"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/115/9781802790115.jpg",
             "book_title": "The Little Book of Hermès",
             "author": "Karen Homer",
-            "price": "₹821"
+            "price": "821"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/632/9781526162632.jpg",
             "book_title": "The Value of a Whale",
             "author": "Adrienne Buller",
-            "price": "₹1,130"
+            "price": "1,130"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/803/9781541620803.jpg",
             "book_title": "Elusive",
             "author": "Frank Close",
-            "price": "₹1,747"
+            "price": "1,747"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/513/9780593185513.jpg",
             "book_title": "The World's Worst Assistant",
             "author": "Conan O'Brien",
-            "price": "₹1,343"
+            "price": "1,343"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/657/9781338755657.jpg",
             "book_title": "EMI Isn't Scared of Monsters",
             "author": "Alina Tysoe",
-            "price": "₹272"
+            "price": "272"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/309/9780765365309.jpg",
             "book_title": "Rhythm of War",
             "author": "Brandon Sanderson",
-            "price": "₹812"
+            "price": "812"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/424/9780593126424.jpg",
             "book_title": "Superpowered",
             "author": "Shefali Tsabary",
-            "price": "₹566"
+            "price": "566"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/676/9781338792676.jpg",
-            "book_title": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection #1",
+            "book_title": "Five Nights at Freddy's",
             "author": "Christopher Hastings",
-            "price": "₹800"
+            "price": "800"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/573/9781250168573.jpg",
             "book_title": "A Divine Language",
             "author": "Alec Wilkinson",
-            "price": "₹1,522"
+            "price": "1,522"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/444/9781324002444.jpg",
             "book_title": "Between Us",
             "author": "Batja Mesquita",
-            "price": "₹1,828"
+            "price": "1,828"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/739/9780143135739.jpg",
             "book_title": "The Amazing Spider-Man",
             "author": "Steve Ditko",
-            "price": "₹1,584"
+            "price": "1,584"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/125/9781471193125.jpg",
             "book_title": "DRAGON CITY PA",
             "author": "Kevin Tsang",
-            "price": "₹564"
+            "price": "564"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/534/9780593157534.jpg",
             "book_title": "Upgrade",
             "author": "Blake Crouch",
-            "price": "₹1,515"
+            "price": "1,515"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/007/9781492665007.jpg",
             "book_title": "Fiske Guide to Colleges 2023",
             "author": "Edward B. Fiske",
-            "price": "₹2,089"
+            "price": "2,089"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/852/9789389347852.jpg",
             "book_title": "Indian Government and Politics",
             "author": "Peu Ghosh",
-            "price": "₹556"
+            "price": "556"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/570/9780241304570.jpg",
             "book_title": "The Frontiers of Knowledge",
             "author": "A Grayling",
-            "price": "₹419"
+            "price": "419"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/432/9781642970432.jpg",
             "book_title": "Protect Your Light",
             "author": "George Lizos",
-            "price": "₹1,089"
+            "price": "1,089"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/351/9781647823351.jpg",
-            "book_title": "HBR Guide to Smarter Networking (HBR Guide Series)",
+            "book_title": "HBR Guide to Smarter Networking ",
             "author": "Harvard Business Review",
-            "price": "₹482"
+            "price": "482"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/137/9781780557137.jpg",
-            "book_title": "A Day in the Life of a Caveman, a Queen and Everything in Between",
+            "book_title": "A Day in the Life of a Caveman",
             "author": "Mike Barfield",
-            "price": "₹794"
+            "price": "794"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/949/9780063221949.jpg",
             "book_title": "How Are You, Really?",
             "author": "Jenna Kutcher",
-            "price": "₹1,359"
+            "price": "1,359"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/116/9781250835116.jpg",
             "book_title": "Monsoon",
             "author": "Uma Krishnaswami",
-            "price": "₹509"
+            "price": "509"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/519/9780385548519.jpg",
             "book_title": "Rogues",
             "author": "Patrick Radden Keefe",
-            "price": "₹1,624"
+            "price": "1,624"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/528/9781538163528.jpg",
             "book_title": "Dare to Lead Like a Girl",
             "author": "Sheryl Sandberg",
-            "price": "₹1,534"
+            "price": "1,534"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/135/9780593497135.jpg",
             "book_title": "Rizzoli & Isles: Listen to Me",
             "author": "Tess Gerritsen",
-            "price": "₹1,492"
+            "price": "1,492"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/283/9780760374283.jpg",
             "book_title": "Modern Asian Baking at Home",
             "author": "Kat Lieu",
-            "price": "₹1,298"
+            "price": "1,298"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/507/9780143136507.jpg",
             "book_title": "Bonsai",
             "author": "Megan McDowell",
-            "price": "₹787"
+            "price": "787"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/784/9781680318784.jpg",
             "book_title": "God's Road to Financial Freedom",
             "author": "Billy Epperhart",
-            "price": "₹956"
+            "price": "956"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/040/9781789546040.jpg",
             "book_title": "Democracy for Sale",
             "author": "Peter Geoghegan",
-            "price": "₹792"
+            "price": "792"
         },
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/715/9780241525715.jpg",
             "book_title": "I Paint What I Want to See",
             "author": "Philip Guston",
-            "price": "₹706"
+            "price": "706"
         }
     ]
-}

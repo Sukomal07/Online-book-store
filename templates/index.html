@@ -3,9 +3,9 @@
 {% block body %}
 
 <!-- home section starts  -->
-
 <section class="home" id="home">
-
+    <div id="results"></div>
+    
     <div class="row">
 
         <div class="content">
@@ -83,172 +83,26 @@
     <div class="swiper featured-slider">
 
         <div class="swiper-wrapper">
-
+            {% for book in data2%}
             <div class="swiper-slide box">
                 <div class="icons">
                     <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
+                    <div id="add_to_fav" class="fas fa-heart"></div>
                     <a href="#" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="{{url_for('static', filename='image/book-1.png') }}" alt="">
+                    <img src="{{ book.image }}" alt="{{ book.book_title }}">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <h3>{{book.book_title}}</h3>
+                    <div class="price"><strong>&#8377;</strong> {{book.price}}</div>
+                    <div id="add_to_cart" class="btn">add to cart</div>
                 </div>
             </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-2.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-3.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-4.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-5.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-6.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-7.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-8.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-9.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <!-- <a href="#" class="fas fa-search"></a> -->
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-10.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
+            {% endfor %}
         </div>
-
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-
     </div>
 
 </section>
@@ -276,15 +130,16 @@
     <h1 class="heading"> <span>new arrivals</span> </h1>
 
     <div class="swiper arrivals-slider">
-
+        
         <div class="swiper-wrapper">
-            <a href="#" class="swiper-slide box">
+            {% for book in data1%}
+            <div class="swiper-slide box">
                 <div class="image">
-                    <img src="{{url_for('static', filename='image/book-1.png') }}" alt="">
+                    <img src="{{ book.image }}" alt="{{ book.book_title }}">
                 </div>
                 <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <h3>{{book.book_title}}</h3>
+                    <div class="price"><strong>&#8377;</strong> {{book.price}}</div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -293,173 +148,10 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-2.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-3.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-4.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-5.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
+            </div>
+            {% endfor %}
         </div>
-
     </div>
-
-    <div class="swiper arrivals-slider">
-
-        <div class="swiper-wrapper">
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-6.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-7.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-8.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-9.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="{{url_for('static', filename='image/book-10.png') }}" alt="">
-                </div>
-                <div class="content">
-                    <h3>new arrivals</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-
-    </div>
-
 </section>
 
 <!-- arrivals section ends -->
@@ -594,7 +286,7 @@
                     <img src="{{url_for('static', filename='image/blog-1.jpg') }}" alt="">
                 </div>
                 <div class="content">
-                    <h3>blog title goes here</h3>
+                    <h3>Our Blogs</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
                     <a href="#" class="btn">read more</a>
                 </div>
@@ -605,7 +297,7 @@
                     <img src="{{url_for('static', filename='image/blog-2.jpg') }}" alt="">
                 </div>
                 <div class="content">
-                    <h3>blog title goes here</h3>
+                    <h3>Our Blogs</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
                     <a href="#" class="btn">read more</a>
                 </div>
@@ -616,7 +308,7 @@
                     <img src="{{url_for('static', filename='image/blog-3.jpg') }}" alt="">
                 </div>
                 <div class="content">
-                    <h3>blog title goes here</h3>
+                    <h3>Our Blogs</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
                     <a href="#" class="btn">read more</a>
                 </div>
@@ -627,7 +319,7 @@
                     <img src="{{url_for('static', filename='image/blog-4.jpg') }}" alt="">
                 </div>
                 <div class="content">
-                    <h3>blog title goes here</h3>
+                    <h3>Our Blogs</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
                     <a href="#" class="btn">read more</a>
                 </div>
@@ -638,7 +330,7 @@
                     <img src="{{url_for('static', filename='image/blog-5.jpg') }}" alt="">
                 </div>
                 <div class="content">
-                    <h3>blog title goes here</h3>
+                    <h3>Our Blogs</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
                     <a href="#" class="btn">read more</a>
                 </div>
@@ -650,9 +342,7 @@
 
 </section>
 {% endblock %}
-<!-- blogs section ends -->
 
-<!-- footer section starts  -->
 
 
 

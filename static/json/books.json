@@ -1,12 +1,12 @@
-{
-    "books": [
+
+    [
         {
             "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/994/9789391392994.jpg",
             "id": "1.",
             "book_title": "Let Us C : Authentic guide to C programming language (18th Edition)",
             "book_author": "By: Yashavant Kanetkar",
             "publisher": "BPB Publications",
-            "price": "Rs.315",
+            "price": "315",
             "release": "25 Nov 2021",
             "language": "English"
         },
@@ -16,7 +16,7 @@
             "book_title": "AAI (Airports Authority of India)",
             "book_author": "By: G K Publications (P) Ltd",
             "publisher": "G.K Publications Pvt.Ltd",
-            "price": "Rs.460",
+            "price": "460",
             "release": "28 Oct 2021",
             "language": "English"
         },
@@ -35,7 +35,7 @@
             "book_title": "Measure What Matters",
             "book_author": "By: John Doerr",
             "publisher": "Penguin Books Ltd",
-            "price": "Rs.620",
+            "price": "620",
             "release": "26 Apr 2018"
         },
         {
@@ -44,7 +44,7 @@
             "book_title": "Cracking the PM Interview",
             "book_author": "By: Gayle Laakmann McDowell, Jackie Bavaro",
             "publisher": "Careercup",
-            "price": "Rs.1,883",
+            "price": "1,883",
             "release": "02 Dec 2013",
             "language": "English"
         },
@@ -53,7 +53,7 @@
             "id": "6.",
             "book_title": "Word Power Made Easy",
             "book_author": "By: Norman Lewis",
-            "price": "Rs.119",
+            "price": "119",
             "release": "31 Aug 2009",
             "language": "ENGLISH"
         },
@@ -63,7 +63,7 @@
             "book_title": "Cracking the Coding Interview",
             "book_author": "By: Gayle Laakmann McDowell",
             "publisher": "Careercup",
-            "price": "Rs.2,775",
+            "price": "2,775",
             "release": "01 Jul 2015",
             "language": "English"
         },
@@ -73,7 +73,7 @@
             "book_title": "Core Python Programming, 3ed: Covers fundamentals to advanced topics like OOPS, Exceptions, Data structures, Files, Threads, Net",
             "book_author": "By: R. Nageswara Rao",
             "publisher": "Dreamtech Press",
-            "price": "Rs.614",
+            "price": "614",
             "release": "01 Sep 2021",
             "language": "English"
         },
@@ -83,7 +83,7 @@
             "book_title": "Python Programming",
             "book_author": "By: Reema Thareja, Reema (Assistant Professor, Department of Computer Science, Shyama Prasad Mukherji College, University of Delhi) Thareja, Reema (Assistant Professor, Department of Computer Science, Assistant Professor, Department of Computer Science, Shyama Prasad Mukherji College, University of Delhi) Thareja, Thareja",
             "publisher": "Oxford University Press",
-            "price": "Rs.498",
+            "price": "498",
             "release": "01 Oct 2019",
             "language": "English"
         },
@@ -93,7 +93,7 @@
             "book_title": "Data Structures and Algorithms Made Easy in Java",
             "book_author": "By: Narasimha Karumanchi",
             "publisher": "CareerMonk Publications",
-            "price": "Rs.2,039",
+            "price": "2,039",
             "release": "16 Dec 2011",
             "language": "English"
         },
@@ -103,7 +103,7 @@
             "book_title": "Deep Learning with Python",
             "book_author": "By: Francois Chollet, François Chollet",
             "publisher": "Manning Publications",
-            "price": "Rs.3,854",
+            "price": "3,854",
             "release": "22 Dec 2017",
             "language": "English"
         },
@@ -113,7 +113,7 @@
             "book_title": "Digital Minimalism",
             "book_author": "By: Cal Newport",
             "publisher": "Penguin Books Ltd",
-            "price": "Rs.419",
+            "price": "419",
             "release": "12 Mar 2020"
         },
         {
@@ -122,7 +122,7 @@
             "book_title": "Life 3.0",
             "book_author": "By: Max Tegmark",
             "publisher": "Penguin Books Ltd",
-            "price": "Rs.384",
+            "price": "384",
             "release": "05 Jul 2018"
         },
         {
@@ -130,7 +130,7 @@
             "id": "14.",
             "book_title": "C in Depth ( With CD)",
             "book_author": "By: S.K. Srivastava",
-            "price": "Rs.351",
+            "price": "351",
             "release": "2011",
             "language": "ENGLISH"
         },
@@ -140,7 +140,7 @@
             "book_title": "Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications (Grayscale Indian Edition)",
             "book_author": "By: Chip Huyen",
             "publisher": "Shroff/o'reilly",
-            "price": "Rs.1,440",
+            "price": "1,440",
             "release": "01 Jun 2022",
             "language": "English"
         },
@@ -159,7 +159,7 @@
             "book_title": "Let Us C++",
             "book_author": "By: Kanetkar Yashavant",
             "publisher": "Repro Knowledgcast Ltd",
-            "price": "Rs.312",
+            "price": "312",
             "release": "11 Oct 2019",
             "language": "English"
         },
@@ -169,7 +169,7 @@
             "book_title": "Head First Java: A Brain-Friendly Guide, Third Edition (Grayscale Indian Edition)",
             "book_author": "By: Kathy Sierra|Bert Bates|Trisha Gee",
             "publisher": "Shroff/o'reilly",
-            "price": "Rs.1,463",
+            "price": "1,463",
             "release": "01 Jun 2022",
             "language": "English"
         },
@@ -179,7 +179,7 @@
             "book_title": "Let Us Python - 4th Edition: Python Is Future, Embrace It Fast",
             "book_author": "By: Yashavant Kanetkar|Aditya Kanetkar",
             "publisher": "BPB Publication",
-            "price": "Rs.328",
+            "price": "328",
             "release": "05 Dec 2021",
             "language": "English"
         },
@@ -189,7 +189,7 @@
             "book_title": "Computer Fundamentals",
             "book_author": "By: P.K. Sinha, P. K. Sinha",
             "publisher": "BPB Publications",
-            "price": "Rs.377",
+            "price": "377",
             "release": "ENGLISH"
         },
         {
@@ -198,7 +198,7 @@
             "book_title":"Foundations of Software Testing: ISTQB Certification, 4E",
             "book_author":"By: Dorothy Graham|Rex Black|Erik van Veenendaal",
             "publisher":"Cengage Learning India Pvt. Ltd.",
-            "price":"₹415",
+            "price":"415",
             "release":"01 Oct 2020",
             "language":"English"
             },
@@ -208,7 +208,7 @@
             "book_title":"A Dictionary of Sociology",
             "book_author":"By: John Scott, John (Honorary Professor, University of Copenhagen) Scott, John (Honorary Professor, Honorary Professor, University of Copenhagen) Scott",
             "publisher":"Oxford University Press, USA",
-            "price":"₹384",
+            "price":"384",
             "release":"01 Oct 2014",
             "language":"English"
             },
@@ -218,7 +218,7 @@
             "book_title":"Clean Code",
             "book_author":"By: Robert C. Martin, Robert C Martin, Robert Martin",
             "publisher":"Prentice Hall",
-            "price":"₹3,363",
+            "price":"3,363",
             "release":"01 Aug 2008",
             "language":"English"
             },
@@ -228,7 +228,7 @@
             "book_title":"Superintelligence",
             "book_author":"By: Nick Bostrom, Nick (Professor in the Faculty of Philosophy & Oxford Martin School and Director, Future of Humanity Institute, University of Oxford) Bostrom",
             "publisher":"Oxford University Press, USA",
-            "price":"₹735",
+            "price":"735",
             "release":"01 May 2016",
             "language":"English"
             },
@@ -238,7 +238,7 @@
             "book_title":"Excel 2019 All-in-One",
             "book_author":"By: Lokesh Lalwani",
             "publisher":"Repro Knowledgcast Ltd",
-            "price":"₹384",
+            "price":"384",
             "release":"26 Jul 2019",
             "language":"English"
             },
@@ -257,7 +257,7 @@
             "book_title":"Dotcom Secrets",
             "book_author":"By: Dan Kennedy, Russell Brunson",
             "publisher":"Morgan James Publishing",
-            "price":"₹1,149",
+            "price":"1,149",
             "release":"28 Apr 2015",
             "language":"English"
             },
@@ -267,7 +267,7 @@
             "book_title":"The Elements of Statistical Learning",
             "book_author":"By: Robert Tibshirani, Jerome Friedman, Trevor Hastie",
             "publisher":"Springer",
-            "price":"₹4,246",
+            "price":"4,246",
             "release":"01 Feb 2009",
             "language":"English"
             },
@@ -286,7 +286,7 @@
             "book_title":"A Thousand Brains",
             "book_author":"By: Richard Dawkins, Jeff Hawkins , Hawkins",
             "publisher":"Basic Books",
-            "price":"₹1,385",
+            "price":"1,385",
             "release":"02 Mar 2021",
             "language":"English"
             },
@@ -296,7 +296,7 @@
             "book_title":"Let Us C",
             "book_author":"By: Yashavant Kanetkar",
             "publisher":"BPB Publications",
-            "price":"₹287",
+            "price":"287",
             "release":"04 Sep 2020",
             "language":"English"
             },
@@ -306,7 +306,7 @@
             "book_title":"Web Designing and Publishing",
             "book_author":"By: Prof.Jain Satish Prof.Jain, Satish Prof Jain",
             "publisher":"Repro Books Limited",
-            "price":"₹360",
+            "price":"360",
             "release":"25 Jun 2020",
             "language":"English"
             },
@@ -316,7 +316,7 @@
             "book_title":"Computer Science & IT Handbook",
             "book_author":"By: Surbhi Mitra, Unknown, Unknown",
             "publisher":"Arihant Prakashan",
-            "price":"₹2,975",
+            "price":"2,975",
             "release":"2014",
             "language":"English"
             },
@@ -325,7 +325,7 @@
             "id":"34.",
             "book_title":"Head First Java",
             "book_author":"Publisher: Shroff Publishers & Distributors Pvt Ltd",
-            "price":"₹1,080",
+            "price":"1,080",
             "release":"01/2005",
             "language":"English"
             },
@@ -335,7 +335,7 @@
             "book_title":"The Man Who Solved the Market",
             "book_author":"By: Gregory Zuckerman",
             "publisher":"Penguin Books Ltd",
-            "price":"₹551",
+            "price":"551",
             "release":"07 Nov 2019"
             },
             {
@@ -344,7 +344,7 @@
             "book_title":"Data Structures Through C in Depth",
             "book_author":"By: S.K. Srivastava, S. K. Srivastava, Deepali Srivastava",
             "publisher":"BPB Publications",
-            "price":"₹383",
+            "price":"383",
             "release":"30 May 2004",
             "language":"ENGLISH"
             },
@@ -354,7 +354,7 @@
             "book_title":"The Age of AI: And Our Human Future",
             "book_author":"By: Eric, III Schmidt, Henry A Kissinger, Daniel Huttenlocher, Kissinger, Henry A|Schmidt, Eric",
             "publisher":"John Murray",
-            "price":"₹591",
+            "price":"591",
             "release":"30 Nov 2021",
             "language":"English"
             },
@@ -373,7 +373,7 @@
             "book_title":"Everything Store: Jeff Bezos and the Age of Amazon",
             "book_author":"By: Brad Stone, Brad (Author) Stone",
             "publisher":"Transworld Publishers Ltd",
-            "price":"₹359",
+            "price":"359",
             "release":"31 Jul 2014"
             },
             {
@@ -382,7 +382,7 @@
             "book_title":"The Penguin Dictionary of Literary Terms and Literary Theory",
             "book_author":"By: J A Cuddon, M A R Habib, M. A. R. Habib, J. A. Cuddon",
             "publisher":"Penguin Books",
-            "price":"₹482",
+            "price":"482",
             "release":"01 Sep 2015",
             "language":"English"
             },
@@ -392,7 +392,7 @@
                 "book_title":"User Friendly",
                 "book_author":"By: Cliff Kuang, Robert Fabricant",
                 "publisher":"Ebury Publishing",
-                "price":"₹419",
+                "price":"419",
                 "release":"24 Sep 2020"
                 },
                 {
@@ -427,7 +427,7 @@
                 "book_title":"Godel, Escher, Bach",
                 "book_author":"By: Douglas R Hofstadter, Douglas R. Hofstadter",
                 "publisher":"Basic Books",
-                "price":"₹1,548",
+                "price":"1,548",
                 "release":"05 Feb 1999",
                 "language":"English"
                 },
@@ -437,7 +437,7 @@
                 "book_title":"IT Tools & Network Basics",
                 "book_author":"By: Prof.Jain Satish Prof.Jain, Satish Prof Jain",
                 "publisher":"Repro Books Limited",
-                "price":"₹360",
+                "price":"360",
                 "release":"25 Jun 2020",
                 "language":"English"
                 },
@@ -447,7 +447,7 @@
                 "book_title":"Fundamentals of Software Engineering",
                 "book_author":"By: Rajib Mall",
                 "publisher":"PHI Learning",
-                "price":"₹482",
+                "price":"482",
                 "release":"30 Nov 2018"
                 },
                 {
@@ -456,7 +456,7 @@
                 "book_title":"Hbr's 10 Must Reads on Leading Digital Transformation (with Bonus Article How Apple Is Organized for Innovation by Joel M. Podolny and Morten T. Hansen)",
                 "book_author":"By: Michael E Porter, Thomas H Davenport, Thomas H. Davenport, Michael E. Porter, Rita Gunther McGrath",
                 "publisher":"Harvard Business Review PR",
-                "price":"₹518",
+                "price":"518",
                 "release":"07 Sep 2021",
                 "language":"English"
                 },
@@ -466,7 +466,7 @@
                 "book_title":"Hands-on Application Development using Spring Boot: Building Modern Cloud Native Applications by Learning RESTFul API, Microservices, CRUD Operations, Unit Testing, and Deployment",
                 "book_author":"By: Shagun Bakliwal",
                 "publisher":"BPB Publication",
-                "price":"₹665",
+                "price":"665",
                 "release":"30 Oct 2021",
                 "language":"English"
                 },
@@ -485,7 +485,7 @@
                 "book_title":"Data Structures & Algorithms Interview Questions You'll Most Likely Be Asked",
                 "book_author":"By: Vibrant Publishers, Vibrant Publishers",
                 "publisher":"Vibrant Publishers",
-                "price":"₹1,936",
+                "price":"1,936",
                 "release":"14 Dec 2016",
                 "language":"English"
                 },
@@ -504,7 +504,7 @@
                 "book_title":"Programming in C",
                 "book_author":"By: Reema Thareja, Reema (Assistant Professor Thareja, Reema (Assistant Professor, Department of Computer Science, Shyama Prasad Mukherjee College for Women, University of Delhi) Thareja",
                 "publisher":"OUP India",
-                "price":"₹498",
+                "price":"498",
                 "release":"25 Feb 2016",
                 "language":"English"
                 },
@@ -514,7 +514,7 @@
                 "book_title":"Storytelling with Data",
                 "book_author":"By: Cole Nussbaumer Knaflic",
                 "publisher":"Wiley",
-                "price":"₹2,218",
+                "price":"2,218",
                 "release":"02 Nov 2015",
                 "language":"English"
                 },
@@ -524,7 +524,7 @@
                 "book_title":"Building Microservices: Designing Fine-Grained Systems, Second Edition (Grayscale Indian Edition)",
                 "book_author":"By: Sam Newman",
                 "publisher":"Shroff/o'reilly",
-                "price":"₹1,440",
+                "price":"1,440",
                 "release":"03 Sep 2021",
                 "language":"English"
                 },
@@ -534,7 +534,7 @@
                 "book_title":"The Last War: How AI Will Shape Indiaâ€™s Final Showdown With China",
                 "book_author":"By: Pravin Sawhney",
                 "publisher":"Aleph Book Company",
-                "price":"₹2,886",
+                "price":"2,886",
                 "release":"08 May 2022",
                 "language":"English"
                 },
@@ -544,7 +544,7 @@
                 "book_title":"Jab, Jab, Jab, Right Hook",
                 "book_author":"By: Gary Vaynerchuk",
                 "publisher":"HarperBusiness",
-                "price":"₹649",
+                "price":"649",
                 "release":"26 Nov 2013",
                 "language":"English"
                 },
@@ -554,7 +554,7 @@
                 "book_title":"The Book of Why",
                 "book_author":"By: Dana MacKenzie, Judea Pearl",
                 "publisher":"Penguin Books Ltd",
-                "price":"₹419",
+                "price":"419",
                 "release":"02 May 2019"
                 },
                 {
@@ -563,7 +563,7 @@
                 "book_title":"Essential Math for Data Science: Take Control of Your Data with Fundamental Linear Algebra, Probability, and Statistics (Grayscale Indian Edition)",
                 "book_author":"By: Thomas Nield",
                 "publisher":"Shroff/o'reilly",
-                "price":"₹1,350",
+                "price":"1,350",
                 "release":"01 Jun 2022",
                 "language":"English"
                 },
@@ -573,7 +573,7 @@
                 "book_title":"Software Architecture: The Hard Parts - Modern Trade-Off Analyses for Distributed Architectures (Grayscale Indian Edition)",
                 "book_author":"By: Neal Ford|Mark Richards|Pramod Sadalage",
                 "publisher":"Shroff/o'reilly",
-                "price":"₹1,530",
+                "price":"1,530",
                 "release":"29 Oct 2021",
                 "language":"English"
                 },
@@ -585,7 +585,7 @@
                     "book_author":"By: Experts",
                     "publisher":"Arihant",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant",
-                    "price":"₹1,417",
+                    "price":"1,417",
                     "release":"2015",
                     "language":"English"
                     },
@@ -597,7 +597,7 @@
                     "book_author":"By: Amit M Agarwal, Amit M. Agarwal, M Amit Agarwal",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹5,924",
+                    "price":"5,924",
                     "release":"30 Apr 2021",
                     "language":"English"
                     },
@@ -609,7 +609,7 @@
                     "book_author":"By: Cal Newport",
                     "publisher":"Penguin Books Ltd",
                     "publisher_url":"https://www.bookswagon.com/publisher/penguin-books-ltd",
-                    "price":"₹419",
+                    "price":"419",
                     "release":"12 Mar 2020"
                     },
                     {
@@ -620,7 +620,7 @@
                     "book_author":"By: Max Tegmark",
                     "publisher":"Penguin Books Ltd",
                     "publisher_url":"https://www.bookswagon.com/publisher/penguin-books-ltd",
-                    "price":"₹384",
+                    "price":"384",
                     "release":"05 Jul 2018"
                     },
                     {
@@ -642,7 +642,7 @@
                     "book_author":"By: Srilakshmi, B",
                     "publisher":"New Age International Private Limited",
                     "publisher_url":"https://www.bookswagon.com/publisher/new-age-international-private-limited",
-                    "price":"₹506",
+                    "price":"506",
                     "release":"01 Aug 2021",
                     "language":"English"
                     },
@@ -654,7 +654,7 @@
                     "book_author":"By: DC Pandey, D.C. Pandey",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹5,319",
+                    "price":"5,319",
                     "release":"10 May 2021",
                     "language":"English"
                     },
@@ -666,7 +666,7 @@
                     "book_author":"By: Arihant, Pallavi Priya, Experts",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹2,279",
+                    "price":"2,279",
                     "release":"2015",
                     "language":"English"
                     },
@@ -678,7 +678,7 @@
                     "book_author":"By: Hugh D. Young",
                     "publisher":"Pearson Education",
                     "publisher_url":"https://www.bookswagon.com/publisher/pearson-education",
-                    "price":"₹854",
+                    "price":"854",
                     "release":"01 Jan 2021",
                     "language":"English"
                     },
@@ -690,7 +690,7 @@
                     "book_author":"By: Pushpalatha K, K Pushpalatha , Deepa Bhat, Pushpa NB",
                     "publisher":"Jaypee-The Health Science Publisher",
                     "publisher_url":"https://www.bookswagon.com/publisher/jaypee-the-health-science-publisher",
-                    "price":"₹846",
+                    "price":"846",
                     "release":"2019",
                     "language":"English"
                     },
@@ -713,7 +713,7 @@
                     "book_author":"By: Oswal, Gurukul, Gurukul, Oswal - Gurukul",
                     "publisher":"Oswal Printers & Publishers Pvt Ltd",
                     "publisher_url":"https://www.bookswagon.com/publisher/oswal-printers-publishers-pvt-ltd",
-                    "price":"₹2,017",
+                    "price":"2,017",
                     "release":"01 Apr 2022",
                     "language":"English"
                     },
@@ -725,7 +725,7 @@
                     "book_author":"By: I.A. Maron, Experts Arihant",
                     "publisher":"Random House",
                     "publisher_url":"https://www.bookswagon.com/publisher/random-house",
-                    "price":"₹3,132",
+                    "price":"3,132",
                     "release":"Feb,2016",
                     "language":"English"
                     },
@@ -748,7 +748,7 @@
                     "book_author":"By: Steven (Author) Strogatz",
                     "publisher":"Atlantic Books",
                     "publisher_url":"https://www.bookswagon.com/publisher/atlantic-books",
-                    "price":"₹359",
+                    "price":"359",
                     "release":"06 Feb 2020"
                     },
                     {
@@ -759,7 +759,7 @@
                     "book_author":"By: Experts",
                     "publisher":"Arihant",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant",
-                    "price":"₹1,914",
+                    "price":"1,914",
                     "release":"2015",
                     "language":"English"
                     },
@@ -782,7 +782,7 @@
                     "book_author":"By: Dr. S K Goyal, SK Goyal, S.K. Goyal",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹8,658",
+                    "price":"8,658",
                     "release":"30 Apr 2021",
                     "language":"English"
                     },
@@ -794,7 +794,7 @@
                     "book_author":"By: DC Pandey, D.C. Pandey",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹5,770",
+                    "price":"5,770",
                     "release":"10 May 2021",
                     "language":"English"
                     },
@@ -806,7 +806,7 @@
                     "book_author":"By: Dr. S K Goyal, S K Goyal, S.K. Goyal",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹6,836",
+                    "price":"6,836",
                     "release":"30 Apr 2021",
                     "language":"English"
                     },
@@ -818,7 +818,7 @@
                     "book_author":"By: N.K. Verma, Dr. Neera Verma, B. K. Vermani, K. K. Rehani, B.K. Vermani",
                     "publisher":"Laxmi Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/laxmi-publications",
-                    "price":"₹173",
+                    "price":"173",
                     "release":"02/2008",
                     "language":"English"
                     },
@@ -830,7 +830,7 @@
                     "book_author":"By: Charles Darwin",
                     "publisher":"Fingerprint! Publishing",
                     "publisher_url":"https://www.bookswagon.com/publisher/fingerprint-publishing",
-                    "price":"₹482",
+                    "price":"482",
                     "release":"01 May 2021",
                     "language":"English"
                     },
@@ -842,7 +842,7 @@
                     "book_author":"By: John Scott, John (Honorary Professor, University of Copenhagen) Scott, John (Honorary Professor, Honorary Professor, University of Copenhagen) Scott",
                     "publisher":"Oxford University Press, USA",
                     "publisher_url":"https://www.bookswagon.com/publisher/oxford-university-press%2c-usa",
-                    "price":"₹384",
+                    "price":"384",
                     "release":"01 Oct 2014",
                     "language":"English"
                     },
@@ -854,7 +854,7 @@
                     "book_author":"By: Education Experts",
                     "publisher":"Repro Books Limited",
                     "publisher_url":"https://www.bookswagon.com/publisher/repro-books-limited",
-                    "price":"₹1,474",
+                    "price":"1,474",
                     "release":"11 May 2020",
                     "language":"English"
                     },
@@ -866,7 +866,7 @@
                     "book_author":"By: James Keeler, Julio De Paula, Peter Atkins , Peter (Fellow of Lincoln College, University of Oxford) Atkins, James (Senior Lecturer in Chemistry at the University of Cambridge and Walters Fellow in Chemistry of Selwyn College, Cambridge) Keeler",
                     "publisher":"OUP Oxford",
                     "publisher_url":"https://www.bookswagon.com/publisher/oup-oxford",
-                    "price":"₹687",
+                    "price":"687",
                     "release":"26 Aug 2018",
                     "language":"English"
                     },
@@ -878,7 +878,7 @@
                     "book_author":"By: Tony Fadell",
                     "publisher":"Transworld",
                     "publisher_url":"https://www.bookswagon.com/publisher/transworld",
-                    "price":"₹551",
+                    "price":"551",
                     "release":"10 May 2022",
                     "language":"English"
                     },
@@ -890,7 +890,7 @@
                     "book_author":"By: V Subhadra Devi, Devi, V Subhadra",
                     "publisher":"Jaypee Brothers Medical Publishers",
                     "publisher_url":"https://www.bookswagon.com/publisher/jaypee-brothers-medical-publishers",
-                    "price":"₹3,246",
+                    "price":"3,246",
                     "release":"31 Jan 2021",
                     "language":"English"
                     },
@@ -902,7 +902,7 @@
                     "book_author":"By: Nick Bostrom, Nick (Professor in the Faculty of Philosophy & Oxford Martin School and Director, Future of Humanity Institute, University of Oxford) Bostrom",
                     "publisher":"Oxford University Press, USA",
                     "publisher_url":"https://www.bookswagon.com/publisher/oxford-university-press%2c-usa",
-                    "price":"₹735",
+                    "price":"735",
                     "release":"01 May 2016",
                     "language":"English"
                     },
@@ -925,7 +925,7 @@
                     "book_author":"By: Gilbert Strang - Massachusetts Institute of Technology",
                     "publisher":"Thomson Press (India) Ltd",
                     "publisher_url":"https://www.bookswagon.com/publisher/thomson-press-(india)-ltd",
-                    "price":"₹507",
+                    "price":"507",
                     "release":"19 Jul 2005",
                     "language":"English"
                     },
@@ -937,7 +937,7 @@
                     "book_author":"By: Amit M Agarwal, Amit M. Agarwal",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹4,959",
+                    "price":"4,959",
                     "release":"30 Apr 2021",
                     "language":"English"
                     },
@@ -949,7 +949,7 @@
                     "book_author":"By: Amit M Agarwal, Amit M. Agarwal, M Amit Agarwal",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹3,408",
+                    "price":"3,408",
                     "release":"30 Apr 2021",
                     "language":"English"
                     },
@@ -961,7 +961,7 @@
                     "book_author":"By: MTG Editorial Board",
                     "publisher":"MTG LEARNING MEDIA PVT. LTD.",
                     "publisher_url":"https://www.bookswagon.com/publisher/mtg-learning-media-pvt.-ltd",
-                    "price":"₹423",
+                    "price":"423",
                     "release":"19 Jul 2022",
                     "language":"English"
                     },
@@ -984,7 +984,7 @@
                     "book_author":"By: H.C Verma",
                     "publisher":"Bharati Bhawan (publishers & Distributors)",
                     "publisher_url":"https://www.bookswagon.com/publisher/bharati-bhawan-(publishers-distributors)",
-                    "price":"₹734",
+                    "price":"734",
                     "release":"01 Feb 2022",
                     "language":"English"
                     },
@@ -996,7 +996,7 @@
                     "book_author":"By: David Deutsch",
                     "publisher":"Penguin Books Ltd",
                     "publisher_url":"https://www.bookswagon.com/publisher/penguin-books-ltd",
-                    "price":"₹482",
+                    "price":"482",
                     "release":"26 Jan 2012",
                     "language":"English"
                     },
@@ -1008,7 +1008,7 @@
                     "book_author":"By: Paul Morris, Patricia Deo",
                     "publisher":"Hodder Education",
                     "publisher_url":"https://www.bookswagon.com/publisher/hodder-education",
-                    "price":"₹1,361",
+                    "price":"1,361",
                     "release":"29 Jul 2016",
                     "language":"English"
                     },
@@ -1020,7 +1020,7 @@
                     "book_author":"By: MTG Editorial Board",
                     "publisher":"MTG LEARNING MEDIA PVT. LTD.",
                     "publisher_url":"https://www.bookswagon.com/publisher/mtg-learning-media-pvt.-ltd",
-                    "price":"₹546",
+                    "price":"546",
                     "release":"19 Jul 2022",
                     "language":"English"
                     },
@@ -1032,7 +1032,7 @@
                     "book_author":"By: DC Pandey, D.C. Pandey",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹8,385",
+                    "price":"8,385",
                     "release":"10 May 2021",
                     "language":"Hindi"
                     },
@@ -1044,9 +1044,8 @@
                     "book_author":"By: Arihant Experts, Unknown",
                     "publisher":"Arihant Publications",
                     "publisher_url":"https://www.bookswagon.com/publisher/arihant-publications",
-                    "price":"₹5,104",
+                    "price":"5,104",
                     "release":"01-Jan-18",
                     "language":"English"
                     }
     ]
-}
