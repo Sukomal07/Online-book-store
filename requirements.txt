@@ -1,0 +1,4 @@
+Flask
+Mysql
+Mysqldb
+Flask-mysqldb
