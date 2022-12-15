@@ -1,4 +1,3 @@
 Flask
 Mysql
 Flask-mysqldb
-pip install --upgrade pip
